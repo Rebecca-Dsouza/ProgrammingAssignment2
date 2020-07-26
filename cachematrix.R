@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## week 3 assignment 
+## Q1 makeCacheMatrix
 
-## Write a short comment describing this function
+## This function creates a special “matrix” object that can cache its inverse
 
 makeCacheMatrix <- function(m = matrix()) {
   a <- NULL
@@ -19,7 +19,10 @@ makeCacheMatrix <- function(m = matrix()) {
 
 
 
-##Please include your own comment to explain your code (Required in Rubric)
+##Q2 cacheSolve
+##This function computes the inverse of the special “matrix” returned by makeCacheMatrix. If the inverse is calculated, then the cachesolve should retrieve the inverse from the cache
+
+
 
 cacheSolve <- function(m, ...) {
   a <- x$getInverse()
